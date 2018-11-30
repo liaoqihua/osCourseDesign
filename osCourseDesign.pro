@@ -27,11 +27,13 @@ CONFIG += c++11
 SOURCES += \
         main.cpp \
         mainwindow.cpp \
-    pcb.cpp
+    pcb.cpp \
+    queue.cpp
 
 HEADERS += \
         mainwindow.h \
-    pcb.h
+    pcb.h \
+    queue.h
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
